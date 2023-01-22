@@ -1,0 +1,20 @@
+.button {
+	color: white;
+	padding: 0.25rem 0.5rem;
+	text-align: center;
+	border: #54627b;
+	border-radius: 5px;
+	margin: 0.5rem;
+	font-weight: 500;
+	font-size: medium;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button-primary {
+	background-color: #54627b;
+}
+
+.button-danger {
+	background-color: #710117;
+}

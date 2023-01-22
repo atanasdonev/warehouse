@@ -1,0 +1,56 @@
+.add-container {
+	color: white;
+	background-color: #54627b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 1rem 0.5rem;
+}
+
+.add-section {
+	width: 100%;
+	max-width: 420px;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 1rem;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+.add-product-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-grow: 1;
+	padding-bottom: 1rem;
+}
+
+.add-product-form input,
+.add-product-form label,
+.add-product-form select {
+	display: block;
+	margin: 0 1rem;
+	padding: 0.25rem;
+	font-weight: 500;
+}
+
+.add-button {
+	color: black;
+	padding: 0.25rem 0.5rem;
+	text-align: center;
+	border: #54627b;
+	margin: 1rem;
+	font-weight: 500;
+	font-size: medium;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.add-product-form .link {
+	text-align: center;
+	color: white;
+}

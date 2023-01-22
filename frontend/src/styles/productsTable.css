@@ -1,0 +1,30 @@
+table,
+th,
+td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+.products-table {
+	margin: 0.25rem;
+}
+
+.search {
+	background-color: #ecd5bb;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.search-form label,
+select {
+	font-size: medium;
+	margin: 0.25rem;
+	font-weight: 500;
+}
